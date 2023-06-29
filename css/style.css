@@ -1,0 +1,121 @@
+.gradient-background {
+  background-image: linear-gradient(225deg, #FF3CAC, #9958D3, #3f5efb, #9958D3, #FF3CAC);
+  background-size: 180% 180%;
+  animation: gradient-animation 9s ease infinite;
+  height: 784px;
+  }
+
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  border-radius: 50%;
+  height: 100px;
+}
+
+.btn-primary {
+  --bs-btn-color: white;
+  --bs-btn-bg: ;
+  --bs-btn-border-color: white;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #0b5ed7;
+  --bs-btn-hover-border-color: #0a58ca;
+  --bs-btn-focus-shadow-rgb: 49,132,253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #0a58ca;
+  --bs-btn-active-border-color: #0a53be;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #0d6efd;
+  --bs-btn-disabled-border-color: #0d6efd;
+}
+
+.btn-outline-secondary {
+  --bs-btn-color: black;
+  --bs-btn-border-color: black;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #6c757d;
+  --bs-btn-hover-border-color: #6c757d;
+  --bs-btn-focus-shadow-rgb: 108,117,125;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #6c757d;
+  --bs-btn-active-border-color: #6c757d;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #6c757d;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #6c757d;
+  --bs-gradient: none;
+}
+
+.lead {
+  color: white;
+}
+
+
+.white {
+  color: white;
+}
+
+.blue {
+  
+  color: #3f5efb ;
+}
+
+.dog {
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 5vh;
+}
+
+
+.row {
+  margin-top: 5vh ;
+}
+
+.w-100 {
+  color: Black;
+  background-color: #d8dde2;
+  border: #3f5efb solid 2px;
+  width: 100%;
+}
+
+
+ 
+
+.bg-enterprise {
+  background-color: #3f5efb;
+  color: white;
+  padding-top: 15px;
+  
+}
+
+.text-bg-dark {
+  background-color: #3f5efb;
+}
+
+.ent-btn {
+  background-color: #3f5efb;
+  color: white;
+  border-color: white;
+  margin-bottom: 15px;
+  
+  
+}
+
+
